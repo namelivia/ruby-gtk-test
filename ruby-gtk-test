@@ -1,0 +1,10 @@
+#!/usr/bin/env ruby
+require 'logging'
+require_relative 'lib/test'
+
+resource = Gio::Resource.load(File.join(File.expand_path(__dir__), 'resources', 'gresources.gresource'))
+Gio::Resources.register(resource)
+
+logger = Logging.logger(STDOUT)
+logger.level = :info
+Test.new(logger).run

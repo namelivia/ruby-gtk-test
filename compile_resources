@@ -1,0 +1,2 @@
+#!/bin/bash
+glib-compile-resources --sourcedir resources --target resources/gresources.gresource resources/gresources.xml
