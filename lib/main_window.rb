@@ -1,3 +1,4 @@
+require_relative 'form_window'
 class MainWindow < Gtk::ApplicationWindow
 	type_register
 	
@@ -10,10 +11,11 @@ class MainWindow < Gtk::ApplicationWindow
 
 	def initialize(application, logger)
 		super application: application
-		logger.info 'Main window constructed'
-		set_title 'This is the application window'
+		logger.info 'Form window constructed'
+		set_title 'This is the form window'
 		main_button.signal_connect 'clicked' do |button, app|
-			logger.warn 'You pressed the button! How dare you!?'
+			form_window = FormWindow.new(application, logger)
+			form_window.present
 		end
 	end
 end
