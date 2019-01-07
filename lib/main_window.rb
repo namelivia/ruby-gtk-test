@@ -3,7 +3,7 @@ class MainWindow < Gtk::ApplicationWindow
 	
 	class << self
 		def init
-			set_template resource: '/com/namelivia/ruby-gtk-test/ui/test.ui'
+			set_template resource: '/com/namelivia/ruby-gtk-test/ui/main-window.ui'
   		bind_template_child 'main_button'
 		end
 	end

@@ -15,6 +15,10 @@
       <object class="GtkBox" id="main_box">
         <property name="visible">True</property>
         <property name="can_focus">False</property>
+        <property name="margin_left">10</property>
+        <property name="margin_right">10</property>
+        <property name="margin_top">10</property>
+        <property name="margin_bottom">10</property>
         <property name="orientation">vertical</property>
         <property name="spacing">40</property>
         <child>
@@ -32,7 +36,7 @@
         </child>
         <child>
           <object class="GtkButton" id="main_button">
-            <property name="label" translatable="yes">Do NOT press me!</property>
+            <property name="label" translatable="yes">Press me to open the form window</property>
             <property name="visible">True</property>
             <property name="can_focus">True</property>
             <property name="receives_default">True</property>
