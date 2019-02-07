@@ -1,4 +1,3 @@
-require_relative 'form_window'
 class MainWindow < Gtk::ApplicationWindow
 	type_register
 	
