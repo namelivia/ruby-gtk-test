@@ -6,5 +6,5 @@ resource = Gio::Resource.load(File.join(File.expand_path(__dir__), 'resources', 
 Gio::Resources.register(resource)
 
 logger = Logging.logger(STDOUT)
-logger.level = :info
+logger.level = :debug
 Test.new(logger).run

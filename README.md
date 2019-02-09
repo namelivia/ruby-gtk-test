@@ -1,10 +1,9 @@
 # Ruby GTK Test
 
-Just a test for creating a GTK user interface for a Ruby application, hopefully decoupling the code and ending up with a decent
-architecture. This is just for experimenting pruposes, it may be abandoned or deleted in the future.
+<p align="center">
+  <img src="https://user-images.githubusercontent.com/1571416/52521324-e4077300-2c75-11e9-97bf-43bcf5c889fe.png" alg="Simple GTK Application"/>
+</p>
 
-Thanks to [this amazing tutorial by iridakos](https://iridakos.com/tutorials/2018/01/25/creating-a-gtk-todo-application-with-ruby.html) because I've been mostly following his tutorials.
-
-Thanks to [this other tutorial](http://blog.codelv.com/2012/01/how-to-populate-combo-box-in-gtk3-using.html)
+This is just a small test application that peform HTTP/HTTPS requests. It has a GTK use interface. The prupose of this application was to experiment designing and programming GTK interfaces for Ruby applications, just for experimenting pruposes, as a real application is incomplete and could be abandoned or deleted in the future.
 
 To compile Gtk resources execute `./compile_resources` to execute the application run `./ruby-gtk-test`.
