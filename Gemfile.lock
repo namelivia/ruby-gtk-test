@@ -48,7 +48,7 @@ GEM
       cairo-gobject (= 3.4.1)
       gobject-introspection (= 3.4.1)
     parallel (1.19.1)
-    parser (2.7.0.5)
+    parser (2.7.1.1)
       ast (~> 2.4.0)
     parslet (1.8.2)
     pkg-config (1.4.1)
@@ -68,7 +68,7 @@ GEM
       diff-lcs (>= 1.2.0, < 2.0)
       rspec-support (~> 3.9.0)
     rspec-support (3.9.2)
-    rubocop (0.81.0)
+    rubocop (0.82.0)
       jaro_winkler (~> 1.5.1)
       parallel (~> 1.10)
       parser (>= 2.7.0.1)
@@ -91,7 +91,7 @@ DEPENDENCIES
   logging
   rake
   rspec
-  rubocop (~> 0.81.0)
+  rubocop (~> 0.82.0)
 
 BUNDLED WITH
    1.16.1
