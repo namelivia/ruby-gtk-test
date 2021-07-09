@@ -54,7 +54,7 @@ GEM
     parslet (1.8.2)
     pkg-config (1.4.6)
     rainbow (3.0.0)
-    rake (13.0.4)
+    rake (13.0.6)
     red-colors (0.3.0)
       matrix
     regexp_parser (2.1.1)
