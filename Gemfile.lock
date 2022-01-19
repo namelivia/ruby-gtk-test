@@ -55,7 +55,7 @@ GEM
       ast (~> 2.4.1)
     parslet (1.8.2)
     pkg-config (1.4.7)
-    rainbow (3.0.0)
+    rainbow (3.1.1)
     rake (13.0.6)
     red-colors (0.3.0)
       matrix
@@ -74,9 +74,9 @@ GEM
       diff-lcs (>= 1.2.0, < 2.0)
       rspec-support (~> 3.10.0)
     rspec-support (3.10.0)
-    rubocop (1.24.1)
+    rubocop (1.25.0)
       parallel (~> 1.10)
-      parser (>= 3.0.0.0)
+      parser (>= 3.1.0.0)
       rainbow (>= 2.2.2, < 4.0)
       regexp_parser (>= 1.8, < 3.0)
       rexml
@@ -100,7 +100,7 @@ DEPENDENCIES
   logging
   rake
   rspec
-  rubocop (~> 1.24.1)
+  rubocop (~> 1.25.0)
 
 BUNDLED WITH
    1.16.1
