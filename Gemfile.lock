@@ -37,7 +37,7 @@ GEM
       gio2 (= 3.5.1)
       pango (= 3.5.1)
     htmlentities (4.3.4)
-    i18n (1.8.11)
+    i18n (1.9.0)
       concurrent-ruby (~> 1.0)
     little-plugger (1.1.4)
     locale (2.1.3)
