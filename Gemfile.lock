@@ -49,7 +49,7 @@ GEM
       cairo-gobject (= 4.1.1)
       gobject-introspection (= 4.1.1)
     parallel (1.22.1)
-    parser (3.2.0.0)
+    parser (3.2.1.0)
       ast (~> 2.4.1)
     parslet (2.0.0)
     pkg-config (1.5.1)
@@ -57,7 +57,7 @@ GEM
     rake (13.0.6)
     red-colors (0.3.0)
       matrix
-    regexp_parser (2.6.2)
+    regexp_parser (2.7.0)
     rexml (3.2.5)
     rspec (3.12.0)
       rspec-core (~> 3.12.0)
@@ -72,7 +72,7 @@ GEM
       diff-lcs (>= 1.2.0, < 2.0)
       rspec-support (~> 3.12.0)
     rspec-support (3.12.0)
-    rubocop (1.44.1)
+    rubocop (1.45.1)
       json (~> 2.3)
       parallel (~> 1.10)
       parser (>= 3.2.0.0)
@@ -99,7 +99,7 @@ DEPENDENCIES
   logging
   rake
   rspec
-  rubocop (~> 1.44.1)
+  rubocop (~> 1.45.1)
 
 BUNDLED WITH
    1.16.1
