@@ -34,7 +34,7 @@ GEM
       atk (= 4.1.6)
       gdk3 (= 4.1.6)
     htmlentities (4.3.4)
-    i18n (1.13.0)
+    i18n (1.14.0)
       concurrent-ruby (~> 1.0)
     json (2.6.3)
     little-plugger (1.1.4)
