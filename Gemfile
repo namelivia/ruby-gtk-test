@@ -10,4 +10,4 @@ gem 'content-type'
 gem 'rake'
 gem 'gtk3'
 gem 'rspec'
-gem 'rubocop', '~> 1.57.2', require: false
+gem 'rubocop', '~> 1.58.0', require: false
